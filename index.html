@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "goTu7wS0XFvPfBMMx",
+        });
+    })();
+        </script>
+    <!-- style switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+<body>
+    <!-- main container begin -->
+    <div class="main-container">
+        <div class="aside open">
+            <div class="logo">
+                <a href="#"><span class="A">𝐀</span>mit</a>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#technicalskills"><i class="fa fa-list"></i>Technical Skills</a></li>
+                <li><a href="#projects"><i class="fa fa-briefcase"></i>Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-comment"></i>Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Toggle Button (outside sidebar) -->
+        <div class="nav-toggler" id="sidebar-toggle">
+            <i class="fa fa-bars"></i> <!-- or any icon -->
+        </div>
+
+        </div>
+    <!-- main content -->
+        <div class="main-content">
+        <!-- home section -->
+            <section class="home section active" id="home">
+                <div class="container padd-15">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, My name is <span class="name">Amit Paul</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Web developer</span></h3>
+                            <p>I’m a Computer Science Engineer skilled in Python, Java, Machine Learning. I create intelligent systems, GUIs and web applications to solve real-world problems.</p>
+                            <a href="#contact" class="btn hire-me">Contact Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="Images/image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+         <!-- About section -->
+            <section class="about section " id="about">
+                <div class="container padd-15">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Amit Paul, a <span>Full Stack Developer</span></h3>
+                                    <p>A Computer Science Engineering student skilled in Python, Java and SQL. Knowledgeable in DSA, ML, AI and OOPs. Completed internship from CDAC. Proficient in Excel and Word with a strong interest in real-world applications of tech and problem-solving.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>DOB : <span>14/07/2003</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>2amit2pal@gmail.com </span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>College : <span>Techno Engineering College Banipur</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>9609924775 </span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>B.Tech </span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Address : <span>Habra, West Bengal</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Specialization : <span>CSE</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="button pa">
+                                            <a href="mycv/Resume.pdf" download="My_CV.pdf" class="btn">Download Resume</a>
+                                            <a href="#contact" class="btn hire-me">For More Details Contact</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5> DSA</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5> DBMS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 71%;"></div>
+                                                <div class="skill-percent">71%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5> OOPS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 89%;"></div>
+                                                <div class="skill-percent">89%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5> ML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 88%;"></div>
+                                                <div class="skill-percent">88%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5> AI</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 66%;"></div>
+                                                <div class="skill-percent">66%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5> Image Processing</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline items -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2021-2025</h3>
+                                                            <h4 class="timeline-title">B.Tech</h4>
+                                                            <p class="timeline-text"> I have successfully completed Bachelor of Technology in Computer Science and Engineering with a CGPA of 8.36, demonstrating consistent academic excellence and a strong grasp of core concepts in computer science, programming and emerging technologies.</p> 
+                                                </div>
+                                                <!-- timeline items -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2019-2021</h3>
+                                                            <h4 class="timeline-title">Higher Secondary</h4>
+                                                            <p class="timeline-text">I have successfully completed my 12th grade with a score of 88.2%.</p> 
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2013-2019</h3>
+                                                            <h4 class="timeline-title">Secondary</h4>
+                                                            <p class="timeline-text"> I have successfully completed my 10th grade with a  score of 85.2%.</p> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Certification</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline items -->
+                                                 <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2025</h3>
+                                                    <h4 class="timeline-title">Big Query for Data Analyst</h4>
+                                                             
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>April 2025</h3>
+                                                    <h4 class="timeline-title">Python 101 for Data Science</h4>
+                                                             
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>October 2023</h3>
+                                                    <h4 class="timeline-title">Crash Course on Python</h4>
+                                                             
+                                                </div>  
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>May 2022</h3>
+                                                    <h4 class="timeline-title">Enhancing Soft Skills and Personality</h4>
+                                                             
+                                                </div>  
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>May 2022</h3>
+                                                    <h4 class="timeline-title">Ethics in Engineering Practice</h4>
+                                                             
+                                                </div>                                         
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline items -->
+                                                <div class="timeline-item">
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>Feb 2024 - Aug 2024</h3>
+                                                            <h4 class="timeline-title">intern at CDAC, Kolkata</h4>
+                                                            <p class="timeline-text"> I developed a user-friendly graphical interface for detecting copy-move and splicing forgeries in images, integrating advanced techniques such as SIFT, ORB, Lowe’s ratio, DBSCAN and DFT to ensure accurate detection. The tool was designed to balance usability and research needs, making forensic analysis both accessible and visually interpretable. It offers real-time visualization of detected forged regions, enhancing interoperability and aiding in deeper forensic investigations. This project combines robust technical implementation with an intuitive user experience for effective digital image forensics.</p> 
+                                                </div>                                        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="education padd-15">
+                                    <h3 class="title">Research paper</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline items -->
+                                                <div class="timeline-item">
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>April 2023</h3>
+                                                            <h4 class="timeline-title">Early Detection of Breast Cancer Using Logistic Regression Method (Python) </h4>
+                                                            <p class="timeline-text">focuses on predicting breast cancer at an early stage to reduce mortality rates among women in India, where it accounts for about 14% of all cancers. Using the Wisconsin Diagnostic Breast Cancer dataset,we applied the Logistic Regression algorithm along with 10-fold cross-validation and various train-test splits. The model achieved high performance with accuracies up to 96% and was evaluated using metrics such as accuracy, sensitivity, specificity.Published from Intonational Journal of Engineering Technology and Management Science Website: ijetms.in</p> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- skills section-->
+            <section class="skills section" id="technicalskills">
+                <div class="container padd-15">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Technical Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- skills Python-->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-python"></i>
+                                            </div>
+                                            <h4>Python</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Hands on Experience</li>
+                                            <li>Intermediate Knowledge</li>
+                                            <li>Projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skills java-->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-java"></i>
+                                            </div>
+                                            <h4>Java</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Perform OOPS Logic</li>
+                                            <li>Intermediate Knowledge</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skills SQL -->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-solid fa-database"></i>
+                                            </div>
+                                            <h4>SQL</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Basic Knowledge</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skills HTML -->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-html5"></i>
+                                            </div>
+                                            <h4>HTML</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Hands on Experience</li>
+                                            <li>Intermediate Knowledge</li>
+                                            <li>Projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skills CSS-->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-css3-alt"></i>
+                                            </div>
+                                            <h4>CSS</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Hands on Experience</li>
+                                            <li>Intermediate Knowledge</li>
+                                            <li>Projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skills JS-->
+                        <div class="skills-item padd-15">
+                            <div class="skills-item-inner flip-card">
+                                <div class="flip-card-inner">
+                        <!-- front face -->
+                                    <div class="flip-card-front">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-js"></i>
+                                            </div>
+                                            <h4>JavaScript</h4>
+                                        </div>
+                                    </div>
+                        <!-- back face -->
+                                    <div class="flip-card-back">
+                                        <ul>
+                                            <li>Hands on Experience</li>
+                                            <li>Basic Knowledge</li>
+                                            <li>Projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        <!-- Project section -->
+            <section class="project section" id="projects">
+                <div class="container padd-15">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Project</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="project-heading padd-15">
+                            <h2>My Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- projects item 1-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/AttendanceSystem.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/Attendance-System.git" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    Attendance System — based on image analysis
+                                </div>
+                                <div class="project-details">
+                                    Developed an automated attendance system using facial recognition from group images to mark attendance efficiently.
+                                </div>
+                                <div class="project-tools">
+                                    <span class="tool-1">#Python</span>, 
+                                    <span class="tool-2">#OpenCV</span>, 
+                                    <span class="tool-3">#Flask</span>
+                                    <span class="tool-4">#HTML/CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- projects item 2-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/CricketAnalyzer.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/Cricket-Analysis-GUI.git" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    Cricket Analyzer—Python based GUI application
+                                </div>
+                                <div class="project-details padd-15">
+                                    This project is a GUI-based application that helps users calculate cricket run rates and perform other mathematical operations (including DLS method) . By entering details like runs scored or overs played, users can easily get accurate results in a simple and intuitive interface
+
+                                </div>
+                                <div class="project-tools padd-15">
+                                    <span class="tool-1">#Python</span>, 
+                                    <span class="tool-2">#Tkinter</span>, 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects item 3-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/QuizGame.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/Quiz_Game" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    Quiz Game — based on Python and JSON data handling
+                                </div>
+                                <div class="project-details">
+                                    This Interactive Quiz Chatbot asks multiple-choice questions, gives instant feedback and shows the final score.Questions are loaded from a JSON file and can be easily extended by modifying the file.
+
+                                </div>
+                                <div class="project-tools">
+                                    <span class="tool-1">#Python</span>, 
+                                    <span class="tool-2">#json</span>, 
+                                    <span class="tool-3">#Flask</span>
+                                    <span class="tool-4">#HTML/CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects item 4-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/SeviceBuddy.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/SurviceBuddy" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    Service Buddy— based on Python and JSON
+                                </div>
+                                <div class="project-details">
+                                    This project is a Customer Service Chatbot designed to assist users by providing product information, answering common queries about orders, shipping, payment methods and troubleshooting issues through natural language interaction.
+
+                                </div>
+                                <div class="project-tools">
+                                    <span class="tool-1">#Python</span>, 
+                                    <span class="tool-2">#json</span>, 
+                                    <span class="tool-3">#Flask</span>
+                                    <span class="tool-4">#HTML/CSS</span>
+                                    <span class="tool-4">#NLTK</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects item 5-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/ImageAnalyer.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/image-analyzer-gui.git" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    Image Analyzer — based on image analysis
+                                </div>
+                                <div class="project-details">
+                                    This project is an advanced Image Analyzer GUI that performs image processing, quality assessment, metadata extraction, and forgery detection using algorithms like SIFT, ORB, DCT.
+
+                                </div>
+                                <div class="project-tools">
+                                    <span class="tool-1">#Python</span>, 
+                                    <span class="tool-2">#OpenCV</span>, 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects item 6-->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                    <img src="Images/MyPortfolio.png" alt="">
+                                    <a href="https://github.com/amitpaul3002/My-Portfolio" target="_blank" class="github-btn"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="project-name">
+                                    My Portfolio— based on HTML5, CSS and jS
+                                </div>
+                                <div class="project-details">
+                                    Responsive personal portfolio website highlighting technical skills, professional projects and achievements. Built with HTML, CSS and JavaScript, featuring smooth navigation, modern UI and integrated email functionality for direct contact.
+
+                                </div>
+                                <div class="project-tools">
+                                    <span class="tool-1">#HTML/CSS</span>
+                                    <span class="tool-2">#JS</span>, 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- contact section -->
+            <section class="contact section" id="contact">
+                <div class="container padd-15">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have You Any Queries?</h3>
+                    <h4 class="contact-sub-title padd-15">I am at your Service....</h4>
+                    <div class="row">
+                        <!-- contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <a href="tel:+919609924775" class="contact-btn"><i class="fa fa-phone"></i></a>
+                            <h4>Call Me</h4>
+                        </div>                        
+                        <!-- contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <a href="https://www.linkedin.com/in/amit-paul-707111251/" class="contact-btn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                            <h4>LinkedIn</h4>
+                        </div>
+                        <!-- contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <a href="https://github.com/amitpaul3002" class="contact-btn" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                            <h4>Github</h4>
+                        </div>
+                        <!-- contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <a href="https://github.com/yourusername" class="contact-btn" target="_blank" rel="noopener"><i class="fa fa-globe-asia"></i></a>
+                            <h4>My Website</h4>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'm Very Responsive....</h4>
+                    <!-- contact form -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" id="name" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" id="message" class="form-control"  id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit"onclick="sendMail()" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+     
+    </div>
+    <!-- main container end -->
+     <!-- Style switch -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- Js files -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src = "js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+</html>
