@@ -826,7 +826,9 @@ h3.my-profession{
     .aside{
         display: none;
     }
-    
+    #sidebar-toggle {
+        display: none;
+    }
     .main-header {
         display: block;
     }
