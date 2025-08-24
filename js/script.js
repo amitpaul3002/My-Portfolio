@@ -72,6 +72,23 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav a, .main-header nav a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href").replace("#", "");
+            const targetSection = document.getElementById(targetId);
+
+            if (!targetSection) return;
+            targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+    });
+});
+
 // flip skill card
 document.querySelectorAll('.flip-card').forEach(card => {
   card.addEventListener('click', () => {
