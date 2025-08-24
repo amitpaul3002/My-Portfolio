@@ -801,7 +801,7 @@ h3.my-profession{
         left: -270px;
     }
     .main-content{
-        padding-left: 0;
+        margin-left: 0;
     }
     .about .about-content .personal-info .info-item p span{
         display: block;
