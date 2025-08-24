@@ -28,6 +28,32 @@ body
     text-decoration: none;
     box-sizing: border-box;
 }
+.main-header {
+  display: none; /* stays hidden by default until max-width condition */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* transparent black overlay (adjust opacity) */
+  backdrop-filter: blur(6px);      /* optional: adds glass-like blur effect */
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+.main-header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header a {
+  color: var(--skin-color);  /* keeps links visible on transparent background */
+  text-decoration: none;
+  font-weight: 500;
+}
 .A {
     display: inline-block;
     font-size: 40px; /* base size */
@@ -798,10 +824,15 @@ h3.my-profession{
 }
 @media (max-width:1199px){
     .aside{
-        left: -270px;
+        display: none;
     }
-    .main-content{
-        margin-left: 0;
+    
+    .main-header {
+        display: block;
+    }
+    .main-content {
+        margin-left: 0; /* no sidebar space */
+        padding-top: 60px; /* space for fixed header */
     }
     .about .about-content .personal-info .info-item p span{
         display: block;
@@ -836,3 +867,5 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+/* Default: header hidden, sidebar visible */
+
